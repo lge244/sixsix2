@@ -84,6 +84,7 @@ body, footer {
 .ml-30 {
     margin-left: 30px;
 }
+
 .ml-100 {
     margin-left: 100px;
 }
@@ -143,9 +144,11 @@ body, footer {
 .f-right {
     float: right;
 }
+
 /*首页菜单*/
 
 .menu ul {
+    width: 88%;
     margin: 0 auto;
 }
 
@@ -163,10 +166,220 @@ body, footer {
 .menu a img {
     margin: 0 auto;
     display: block;
-    width: 45px;
-    height: 45px;
+    width: 38px;
+    height: 38px;
     padding-bottom: 4px;
 }
+
 .php-left-li li {
     float: left;
 }
+
+.logo_menu {
+    width: 100%;
+    height: 120px;
+    background: white;
+    text-align: center;
+}
+
+.menu_but {
+    display: inline-block;
+    float: right;
+    margin: 15px;
+}
+
+.seek {
+    width: 100%;
+    height: 130px;
+    background: #ee8d00;
+}
+
+.nav {
+    width: 100%;
+    height: 200px;
+    background: white;
+    text-align: center;
+}
+
+.slide_show {
+    height: 130px;
+}
+
+.layui-carousel-ind ul {
+    float: right;
+    margin-right: 30px;
+}
+
+.l-f {
+    float: left;
+    list-style: none;
+}
+
+.new {
+    width: 100%;
+    height: 280px;
+    text-align: center;
+}
+
+.list {
+    width: 100%;
+
+    text-align: center;
+}
+
+.buddha {
+    width: 90px;
+    height: 90px;
+    border-radius: 3px;
+}
+
+.more_but {
+    background: #ee8d00;
+    width: 100px;
+    line-height: 25px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.footer_icon {
+    width: 90%;
+    height: 180px;
+    background: white;
+}
+
+.footer_bot {
+    height: 120px;
+    text-align: center;
+    background: #333333;
+}
+
+.footer_bot span {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #9F9F9F;
+}
+
+.bot_li a {
+    color: white;
+    font-size: 15px;
+}
+
+.bot_li li {
+    width: 25%;
+}
+
+/*首页菜单结束*/
+
+/*公用头部*/
+.public-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 10px 1px rgba(7, 17, 27, .1);
+    z-index: 99999;
+    min-width: 320px;
+    max-width: 768px;
+    background: url('./images/lb.jpg');
+}
+
+.public-top li {
+    height: 42px;
+    line-height: 42px;
+}
+
+.public-top .login {
+    width: 20%;
+    padding-left: 7px;
+}
+
+.public-top .login img {
+    margin-top: 14px;
+    width: 23px;
+    float: left;
+}
+
+.public-top .logo {
+    float: left;
+    width: 55%;
+    text-align: center;
+}
+
+.public-top .logo mip-img {
+    margin: 0 auto;
+    display: block !important;
+}
+
+.public-top .f-right {
+    width: 10%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.public-top .f-right i {
+    font-size: 19px;
+}
+
+.public-top a, .public-top i {
+    color: white;
+}
+
+/*文章详情*/
+.content {
+    margin-bottom: 100px;
+}
+
+.content h3 {
+    font-weight: bold;
+}
+
+.article_content img {
+    width: 100%;
+}
+
+.article_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: white;
+    border-bottom: 1px solid #ececec;
+}
+
+.article_footer a {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    color: #9F9F9F;
+}
+
+.article_footer a img {
+    width: 25px;
+}
+
+.article_footer a p {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.seek-input {
+    border: none;
+    border-bottom: 2px solid #9F9F9F !important;
+    padding-bottom: 5px;
+    color: #333;
+    width: 50%;
+    text-align: center;
+}
+
+.seek_box {
+    height: 35px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #ee8d00;
+}
+
+/*文章详情结束*/
