@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主播名片详情--六六传媒</title>
+    <link rel="short icon" style="image/x-icon" href="./status/images/favicon.ico">
+    <link rel="icon" style="image/x-icon" href="./status/images/favicon.ico">
+    <link rel="bookmark" style="image/x-icon" href="./status/images/favicon.ico">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" href="./status/css.css">
+    <link rel="stylesheet" href="./status/layui/css/layui.css">
+    <link rel="stylesheet" href="./status/font-awesome/css/font-awesome.min.css">
+</head>
+<style>
+    .card_header {
+        width: 100%;
+        height: 80px;
+    }
+
+    .card_main {
+        width: 100%;
+        background: url("./status/images/detailsb.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    .card_main .personal {
+        padding-top: 40px;
+    }
+
+    .card_main .personal img {
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .personal h2 {
+        margin-top: 10px;
+        color: white;
+    }
+
+    .personal p {
+        margin-top: 20px;
+        color: white;
+    }
+
+    .info {
+        margin-top: 30px;
+        background: url("./status/images/infob.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        width: 80%;
+        margin-left: 10%;
+        height: 400px;
+    }
+
+    .info ul {
+        padding-top: 10%;
+        padding-left: 13%;
+    }
+
+    .info li {
+        margin-top: 7%;
+    }
+
+    .info li p {
+        margin-right: 10px;
+        text-align: left;
+        font-family: "微软雅黑";
+    }
+
+    .data {
+        background: url("./status/images/datab.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        width: 80%;
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+
+    .data .data_map {
+        padding-top: 20%;
+        padding-left: 7%;
+    }
+
+    .container {
+        width: 95%;
+        background: white;
+        box-shadow: -3px 0px 15px #cccccc;
+    }
+
+    .footer_but {
+        width: 100px;
+        height: 100px;
+        background: #ee8d00;
+        display: block;
+        border: 0;
+        color: white;
+        font-weight: bold;
+        font-size: 17px;
+        font-family: 'Lucida Handwriting';
+        margin-top: 70px;
+        margin-left: 38%;
+    }
+</style>
+<body>
+<div class="public-top">
+    <li class='f-left login'><a href=""><img src="./status/images/back.png" style="width: 30px; margin-left: 5%"></a>
+    </li>
+    <li class='logo'>
+        <a href="/"><img class="f-fl img" src="./status/images/logo3.png" width="94"></a>
+    </li>
+    <li class='f-right menus'>
+        <a href=""><i class="fa fa-bars" aria-hidden="true" style="color: white; font-size: 20px;"></i></a>
+    </li>
+</div>
+<div class="card_header mt-40">
+    <div style="margin: 40px; padding-top: 35px;">
+        <span style="font-weight: bold; font-size: 20px; color: #ee8d00;">|</span>
+        <span style="font-weight: bold;font-size: 16px;">主播成绩单</span>
+    </div>
+</div>
+<div class="card_main">
+    <div class="personal">
+        <img src="./status/images/user1.png">
+        <h2>小月亮</h2>
+        <p>数据时间截止到2018.12.12</p>
+    </div>
+    <div class="info">
+        <ul>
+            <li><p>2016.5.20这一天，你的直播间<span style="color: #ee8d00; font-size: 20px;">57575757</span>从<span
+                    style="color: #ee8d00; font-size: 20px;">MOMO</span>上诞生了</p></li>
+            <li><p>你在2016.5.30收获了第一轮<span style="color: #ee8d00; font-size: 20px; ">"游轮"</span><span
+                    style=" color: #01AAED; font-size: 20px;">1000元</span>进了你的口袋</p></li>
+            <li><p>爱你的人居然有<span style="color: #ee8d00; font-size: 20px; ">8000W</span>这么多！</li>
+            <li><p>粉丝期待和你在<span style="color: #ee8d00; font-size: 20px; ">苏州市</span>与你来一场，浪漫的不期而遇</li>
+        </ul>
+        <strong style="color:#ee8d00; font-size: 20px; margin-top: 10%; display: inline-block; margin-right: 45%;">个人简介</strong>
+        <p style="text-align: left; margin-left: 15%; margin-top: 5% ">我是陈独秀同学，谁人能敌</p>
+    </div>
+    <div class="data">
+        <div class="data_map">
+            <div id="echarts-line1" style="height:240px;">
+                <div id="container1" class="container" style="height:80%;"></div>
+            </div>
+            <div id="echarts-line2" style="height:240px;">
+                <div id="container2" class="container" style="height:80%;"></div>
+            </div>
+            <div id="echarts-line3" style="height:240px;">
+                <div id="container3" class="container" style="height:80%;"></div>
+            </div>
+            <div id="echarts-line4" style="height:240px;">
+                <div id="container4" class="container" style="height:80%;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="card_footer">
+        <div class="mt-60">
+            <img src="./status/images/logo4.png" style="width: 200px;">
+            <button class="footer_but">二维码</button>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+<script type="text/javascript">
+
+    var dom = document.getElementById("container1");
+    var myChart = echarts.init(dom);
+    window.onresize = myChart.resize;  // 适应屏幕放大缩小
+    var app = {};
+    option = null;
+    option = {
+        baseOption: {
+            title: {
+                text: '01.平台日收入排名趋势',
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: {show: true}   //可下载图片
+                }
+            },
+            grid: {
+                left: '10%',     //设置canvas图距左的距离
+                top: '20%',
+                right: '10%',
+                bottom: '10%'
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['12.1', '12.2', '12.3', '12.4', '12.5', '12.6']
+            },
+            yAxis: {
+                type: 'value',
+            },
+            series: [{
+                name: '收入',
+                type: 'line',
+                smooth: true,
+                data: [100, 12, 21, 54, 260, 830, 710]
+            }]
+        }
+    };
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+</script>
+<script type="text/javascript">
+
+    var dom = document.getElementById("container2");
+    var myChart = echarts.init(dom);
+    window.onresize = myChart.resize;  // 适应屏幕放大缩小
+    var app = {};
+    option = null;
+    option = {
+        baseOption: {
+            title: {
+                text: '02.收入趋势',
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: {show: true}   //可下载图片
+                }
+            },
+            grid: {
+                left: '10%',     //设置canvas图距左的距离
+                top: '20%',
+                right: '10%',
+                bottom: '10%'
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['12.1', '12.2', '12.3', '12.4', '12.5', '12.6']
+            },
+            yAxis: {
+                type: 'value',
+
+            },
+            series: [{
+                // 名称
+                name: '收入',
+                type: 'line',
+                smooth: true,
+                //修改线条的颜色
+                itemStyle: {
+                    normal: {
+                        // 交点颜色
+                        color: '#00FF00',
+                        // 线条颜色
+                        lineStyle: {
+                            color: '#00FF00'
+                        }
+                    }
+                },
+                // 实际数据
+                data: [222, 22, 44, 124, 260, 545, 710]
+            }]
+        }
+    };
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+</script>
+<script type="text/javascript">
+
+    var dom = document.getElementById("container3");
+    var myChart = echarts.init(dom);
+    window.onresize = myChart.resize;  // 适应屏幕放大缩小
+    var app = {};
+    option = null;
+    option = {
+        baseOption: {
+            title: {
+                text: '03.粉丝趋势',
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: {show: true}   //可下载图片
+                }
+            },
+            grid: {
+                left: '10%',     //设置canvas图距左的距离
+                top: '20%',
+                right: '10%',
+                bottom: '10%'
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['12.1', '12.2', '12.3', '12.4', '12.5', '12.6']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                name: '收入',
+                type: 'line',
+                smooth: true,
+                //修改线条的颜色
+                itemStyle: {
+                    normal: {
+                        // 交点颜色
+                        color: '#ee8d00',
+                        // 线条颜色
+                        lineStyle: {
+                            color: '#ee8d00'
+                        }
+                    }
+                },
+                data: [100, 12, 21, 54, 260, 830, 710]
+            }]
+        }
+    };
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+</script>
+<script type="text/javascript">
+
+    var dom = document.getElementById("container4");
+    var myChart = echarts.init(dom);
+    window.onresize = myChart.resize;  // 适应屏幕放大缩小
+    var app = {};
+    option = null;
+    option = {
+        baseOption: {
+            title: {
+                text: '04.虚拟币趋势',
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: {show: true}   //可下载图片
+                }
+            },
+            grid: {
+                left: '10%',     //设置canvas图距左的距离
+                top: '20%',
+                right: '10%',
+                bottom: '10%'
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['12.1', '12.2', '12.3', '12.4', '12.5', '12.6']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [{
+                name: '收入',
+                type: 'line',
+                smooth: true,
+                //修改线条的颜色
+                itemStyle: {
+                    normal: {
+                        // 交点颜色
+                        color: '#01AAED',
+                        // 线条颜色
+                        lineStyle: {
+                            color: '#01AAED'
+                        }
+                    }
+                },
+                data: [100, 12, 21, 54, 260, 830, 710]
+            }]
+        }
+    };
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+</script>
+
+
+<footer>
+    <script src="./status/layui/layui.js"></script>
+    <script src="./status/js.js"></script>
+</footer>
+</body>
+</html>
