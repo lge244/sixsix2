@@ -328,8 +328,14 @@ body, footer {
 }
 
 /*文章详情*/
+
 .content {
+
     margin-bottom: 100px;
+}
+
+.content img {
+    width: 100%;
 }
 
 .content h3 {
@@ -382,4 +388,272 @@ body, footer {
     border: 1px solid #ee8d00;
 }
 
+.more {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 15px;
+    color: white;
+    border-radius: 7px;
+    position: absolute;
+    top: 140px;
+    right: 10px;
+}
+
 /*文章详情结束*/
+/*搜索*/
+.seek_icon {
+    margin-top: 2.6%;
+    margin-left: 6%;
+    margin-right: 10px;
+    color: #ee8d00;
+    font-size: 18px;
+}
+
+.seek_input2 {
+    height: 35px;
+    border: 0px;
+    width: 60%;
+}
+
+.seek_but {
+    background: #ee8d00;
+    height: 35px;
+    width: 20%;
+    border: 0;
+    position: absolute;
+    border-radius: 0 10px 10px 0;
+    color: white;
+}
+
+/*搜索结束*/
+/*名片详情*/
+.card_header {
+    width: 100%;
+    height: 80px;
+}
+
+.card_main {
+    width: 100%;
+    background: url("./images/detailsb.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.card_main .personal {
+    padding-top: 40px;
+}
+
+.card_main .personal img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.personal h2 {
+    margin-top: 10px;
+    color: white;
+}
+
+.personal p {
+    margin-top: 20px;
+    color: white;
+}
+
+.info {
+    margin-top: 30px;
+    background: url("./images/infob.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    width: 80%;
+    margin-left: 10%;
+    height: 400px;
+}
+
+.info ul {
+    padding-top: 10%;
+    padding-left: 13%;
+}
+
+.info li {
+    margin-top: 7%;
+}
+
+.info li p {
+    margin-right: 10px;
+    text-align: left;
+    font-family: "微软雅黑";
+}
+
+.data {
+    background: url("./images/datab.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.data .data_map {
+    padding-top: 20%;
+    padding-left: 7%;
+}
+
+.container {
+    width: 95%;
+    background: white;
+    box-shadow: -3px 0px 15px #cccccc;
+}
+
+.footer_but {
+    width: 100px;
+    height: 100px;
+    background: #ee8d00;
+    display: block;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Lucida Handwriting';
+    margin-top: 70px;
+    margin-left: 38%;
+}
+
+/*名片详情结束*/
+/*登陆和注册*/
+.login_home {
+    background: url('./images/loginb.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.login_info {
+    width: 100%;
+    text-align: center;
+}
+
+.login_inp {
+    left: 10px;
+    width: 60%;
+    color: white;
+    padding-left: 40px;
+    border-radius: 14px;
+    height: 35px;
+    position: relative;
+    border: 1px solid white;
+    background: none;
+}
+
+.login_inp_icon {
+    color: white;
+    position: relative;
+    right: 65%;
+}
+
+.login_forget {
+    color: white;
+    margin-left: 50%;
+    text-decoration: underline;
+}
+
+.login_but {
+    width: 35%;
+    height: 30px;
+    border: 0px;
+    border-radius: 12px;
+    background: rgba(222, 222, 222, 0.3);
+    letter-spacing: 3px;
+}
+
+/*登陆和注册结束*/
+/*主播列表*/
+.user_list {
+    width: 100%;
+}
+
+.list_user_info {
+    margin-top: 10px;
+    float: left;
+}
+
+.list_user_name {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px dotted #d6d6d6;
+}
+
+.list_user_name span {
+    font-size: 17px;
+}
+
+.portrait {
+    float: left;
+    width: 90px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+/*主播列表结束*/
+/*招聘页面*/
+.join_head {
+    background: url("./status/images/header.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 150px;
+}
+
+.genre {
+    width: 100%;
+    height: 30px;
+    border: 1px solid white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+}
+
+.join_content {
+    width: 100%;
+    text-align: center;
+}
+
+.join_info {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.join_but {
+    border-radius: 10px;
+    border: 0px;
+    background: #ee8d00;
+    width: 80px;
+    height: 27px;
+    color: white;
+    margin-top: 10%;
+}
+.join_but2 {
+    border-radius: 10px;
+    border: 0px;
+    background: #ee8d00;
+    width: 200px;
+    height: 35px;
+    color: white;
+    margin: 10% auto;
+    text-align: center;
+    line-height: 35px;
+}
+
+.position_desc {
+    margin:0 30px;
+}
+.desc_title{
+    margin-bottom: 10px;
+    color: #ee8d00;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*招聘页面结束*/
