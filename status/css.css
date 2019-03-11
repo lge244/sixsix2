@@ -73,6 +73,10 @@ body, footer {
     margin-left: 10px;
 }
 
+.ml-15 {
+    margin-left: 10px;
+}
+
 .ml-20 {
     margin-left: 20px;
 }
@@ -635,6 +639,7 @@ body, footer {
     color: white;
     margin-top: 10%;
 }
+
 .join_but2 {
     border-radius: 10px;
     border: 0px;
@@ -648,12 +653,113 @@ body, footer {
 }
 
 .position_desc {
-    margin:0 30px;
+    margin: 0 30px;
 }
-.desc_title{
+
+.desc_title {
     margin-bottom: 10px;
     color: #ee8d00;
     font-weight: bold;
     font-size: 14px;
 }
+
 /*招聘页面结束*/
+/*table切换导航*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+}
+
+.notice {
+    width: 100%;
+}
+
+.notice-tit ul {
+    position: absolute;
+    width: 100%;
+    left: -1px;
+}
+
+.notice-tit li {
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    float: left;
+    width: 24%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    overflow: hidden;
+    background: #ee8d00;
+    margin-left: 3px;
+}
+
+.notice-tit li.select a {
+    color: #ee8d00;
+}
+
+.notice-tit li.select {
+    background: #eee;
+    color: #ee8d00;
+    border-bottom-color: #ee8d00;
+    padding: 0;
+    font-weight: bolder;
+}
+
+.notice-con li {
+    border-top: 1px solid #ececec;
+    padding: 20px 0px;
+}
+
+.notice li a {
+    color: white;
+}
+
+.notice li a:hover {
+    color: #F90;
+}
+
+.notice-con {
+    padding-top: 70px;
+}
+
+.notice-con .mod ul li {
+    float: left;
+    width: 100%;
+}
+
+/*结束*/
+/*排行榜*/
+.num {
+    font-family: 'Showcard Gothic';
+    font-size: 25px;
+    font-weight: bold;
+    color: #ee8d00;
+    float: left;
+}
+
+.source {
+    letter-spacing: 2px;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 3px 20px;
+    background: #a6e1ec;
+    border: 1px solid #1E9FFF;
+    color: #1b6d85;
+}
+
+.user_name {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px
+}
+.ranking_but{
+    width: 120px;
+    height: 30px;
+    background: #ee8d00;
+    display: block;
+    border: 0;
+    color: white;
+    margin-left: 36%;
+}
