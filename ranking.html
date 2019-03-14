@@ -14,7 +14,32 @@
     <link rel="stylesheet" href="./status/layui/css/layui.css">
     <link rel="stylesheet" href="./status/font-awesome/css/font-awesome.min.css">
 </head>
-
+<style>
+    .select_sty {
+        width: 30%;
+        height: 27px;
+         line-height: 27px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+        background: #eaeaea;
+        border-radius: 5px;
+    }
+    .select_sty i{
+        font-size: 12px;
+    }
+    .month{
+        width: 30%;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: inline-block;
+    }
+    .month li{
+        border: 1px solid #ececec;
+        background: #ee8d00;
+        color: white;
+    }
+</style>
 <body>
 <div class="public-top">
     <li class='f-left login'><a href=""><img src="./status/images/back.png" style="width: 30px; margin-left: 5%"></a>
@@ -53,7 +78,25 @@
             <div style="clear: left"></div>
         </ul>
     </div>
+
     <div id="notice-con" class="notice-con ">
+        <div style="text-align: center;" class="mb-30">
+            <div class="select_sty">
+               月份<i class="layui-icon layui-icon-down"></i>
+                <ul class="month" >
+                    <li>123</li>
+                    <li>123</li>
+                    <li>123</li>
+                </ul>
+            </div>
+            <div class="select_sty">
+                平台<i class="layui-icon layui-icon-down"></i>
+                <ul class="month">
+
+                </ul>
+            </div>
+        </div>
+
         <div class="mod" style="display:block">
             <ul>
                 <li>
@@ -265,9 +308,7 @@
                 showTab(this.index);
                 num = this.index;
             }
-            title[i].onmouseleave = function () {
-                timer = setInterval(autoPlay, 5000);
-            }
+
         }
     }
 </script>
