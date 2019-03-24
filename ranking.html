@@ -18,27 +18,33 @@
     .select_sty {
         width: 30%;
         height: 27px;
-         line-height: 27px;
+        line-height: 27px;
         display: inline-block;
         margin-left: 20px;
         margin-right: 20px;
         background: #eaeaea;
         border-radius: 5px;
+        position:relative;
     }
     .select_sty i{
         font-size: 12px;
     }
     .month{
-        width: 30%;
-        margin-left: 20px;
-        margin-right: 20px;
-        display: inline-block;
+        position: absolute;
+        left:0;
+        top:27px;
+        right:20px;
+        width:100%;
+        display: none;
     }
     .month li{
-        border: 1px solid #ececec;
-        background: #ee8d00;
-        color: white;
+        width:100%;
+        border-top: 1px solid #fff;
+        background: #eaeaea;
+        color: #000;
+
     }
+    .select_sty:hover .month{display: block;}
 </style>
 <body>
 <div class="public-top">
@@ -82,17 +88,19 @@
     <div id="notice-con" class="notice-con ">
         <div style="text-align: center;" class="mb-30">
             <div class="select_sty">
-               月份<i class="layui-icon layui-icon-down"></i>
+               月份  <i class="layui-icon layui-icon-down"></i>
                 <ul class="month" >
-                    <li>123</li>
-                    <li>123</li>
-                    <li>123</li>
+                    <li>1月份</li>
+                    <li>2月份</li>
+                    <li>3月份</li>
                 </ul>
             </div>
             <div class="select_sty">
-                平台<i class="layui-icon layui-icon-down"></i>
+                平台 <i class="layui-icon layui-icon-down"></i>
                 <ul class="month">
-
+                    <li>1月份</li>
+                    <li>2月份</li>
+                    <li>3月份</li>
                 </ul>
             </div>
         </div>
@@ -126,6 +134,7 @@
             <button class="ranking_but mt-20 mb-60">查看更多 >
             </button>
         </div>
+        <div style="clear: both;"></div>
         <div class="mod" style="display:none">
             <ul>
                 <li>
@@ -239,8 +248,9 @@
             </ul>
         </div>
     </div>
-</div>
 
+</div>
+<div style="clear: both;"></div>
 <div class="footer">
     <div class="footer_icon mt-30 ml-20 mr-20">
         <img src="./status/images/logo2.png" style="width: 90px;">

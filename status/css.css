@@ -223,14 +223,13 @@ body, footer {
 }
 
 .new {
-    width: 100%;
-    height: 280px;
+    width: 80%;
+    margin:0 auto;
     text-align: center;
 }
 
 .list {
     width: 100%;
-
     text-align: center;
 }
 
@@ -280,7 +279,17 @@ body, footer {
 }
 
 /*首页菜单结束*/
-
+/*最新资讯*/
+.pic li{width: 115px;height: 70px; background:url(./images/lianxiwm.png);margin-bottom: 5px;}
+/*.pic li .arrow{*/
+    /*height:10px;border:105=px solid;width: 10px;display: block;*/
+    /*border-color:white white white transparent;!*上右下左*!*/
+    /*background:linear-gradient(white,white),url(./images/lianxiwm.png);*/
+    /*background-size:cover;*/
+    /*background-clip:padding-box,border-box;*/
+    /*background-origin: border-box;*/
+    /*position: absolute;right: -30px;top: 10px;*/
+/*}*/
 /*公用头部*/
 .public-top {
     position: fixed;
@@ -337,7 +346,6 @@ body, footer {
 /*文章详情*/
 
 .content {
-
     margin-bottom: 100px;
 }
 
@@ -424,13 +432,16 @@ body, footer {
 
 .seek_but {
     background: #ee8d00;
-    height: 35px;
+    height: 36px;
     width: 20%;
     border: 0;
-    position: absolute;
-    border-radius: 0 10px 10px 0;
+    position: absolute;right: 0;
+    border-radius: 0 8px 8px 0;
     color: white;
 }
+/*热门搜索列表*/
+.inline{line-height: 25px;}
+.inline a{display: inline-block;margin-left: 5px;}
 
 /*搜索结束*/
 /*名片详情*/
@@ -529,26 +540,29 @@ body, footer {
     margin-left: 38%;
 }
 
-/*名片详情结束*/
+
+/*名 片详情结束*/
 /*登陆和注册*/
 .login_home {
     background: url('./images/loginb.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
+    /*background-repeat: no-repeat;*/
+    /*!*background-size: 100% 100%;*!*/
+    /*-moz-background-size: 100% 100%;*/
 }
 
 .login_info {
     width: 100%;
     text-align: center;
+    border: none;
 }
 
 .login_inp {
+    border: none;
     left: 10px;
     width: 60%;
     color: white;
     padding-left: 40px;
-    border-radius: 14px;
+    border-radius: 20px;
     height: 35px;
     position: relative;
     border: 1px solid white;
@@ -581,25 +595,26 @@ body, footer {
 .user_list {
     width: 100%;
 }
-
+.user_list li{  padding:10px 0 10px 10px;}
 .list_user_info {
-    margin-top: 10px;
+   line-height: 25px;
     float: left;
 }
 
 .list_user_name {
+
     display: inline-block;
     width: 100%;
     border-bottom: 1px dotted #d6d6d6;
 }
 
 .list_user_name span {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .portrait {
     float: left;
-    width: 90px;
+    width: 80px;
     margin-right: 10px;
     border-radius: 10px;
 }
@@ -765,6 +780,7 @@ body, footer {
     margin-left: 36%;
 }
 /*月份*/
+
 .month_li {
     height: 50px;
     border-top: 1px solid #d6d6d6;
@@ -788,4 +804,38 @@ body, footer {
     margin-left: 16%;
 }
 /*月份结尾*/
+/*个人资料*/
+.user_info {
 
+}
+
+.pic_edit {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 30px 30px 20px 30px;
+    line-height: 80px;
+}
+
+.user_info li {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 30px 30px 20px 30px;
+}
+
+.edit_name {
+    font-size: 15px;
+    color: #9F9F9F;
+}
+
+.edit_name_input {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+}
+.edit_name_input2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+}
+/*个人资料结尾*/
