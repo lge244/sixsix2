@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background: #eeeeee; */
+    font-size: .32rem /* 16/50 */;
+}
+.public-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: .74rem /* 37/50 */ /* 37/16 */ ;
+    box-shadow: 0 0 10px 1px rgba(7, 17, 27, .1);
+    z-index: 99999;
+    background: #F18D06;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .28rem;
+}
+.login{
+    margin-left: .28rem;
+    margin-top: 0.05rem;
+}
+.public-top li{
+    display: inline-block;
+}
+.ul-line li{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    margin-bottom: 4px;
+    height: 2px;
+    width: 0.32rem;
+    border-radius: 2px;
+    font-size: 0.4rem;
+}
+.logo{
+    margin-top: 0.1rem;
+}
+.ul-line{
+    margin-right: 0.24rem;
+}
+.nav-top{
+    margin-bottom:.74rem /* 37/50 */ ;
+}
+
+
+.center-title{
+    width: 100%;
+    height: 1.34rem /* 67/50 */;
+    display: flex;
+    background: #ffffff;
+}
+.title-p p{
+    font-size: .3rem /* 15/50 */;
+    line-height: 1.34rem /* 67/50 */;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+}
+.title-line{
+    height: .28rem /* 14/50 */;
+    margin-top: 0.5rem;
+    width: 4px;
+    background: #F18D06;
+    margin-right: 0.14rem;
+    margin-left: 0.8rem;
+}
+
+.user_big{
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+    padding-bottom: 0.4rem;
+}
+.user-center{
+    width: 100%;
+    background: url('../images/bid.png');
+    background-size: 100%;
+}
+
+
+.user_top{
+    display: flex;
+    align-items: center;
+}
+.user_top img{
+    width: 1.4rem /* 70/50 */;
+    height: 1.4rem /* 70/50 */;
+    border-radius:50%;
+    margin-top: .8rem /* 40/50 */;
+    margin-left: .8rem /* 40/50 */;
+}
+.user_name{
+    color: white;
+    font-size: .28rem /* 14/50 */;
+    margin-bottom: .2rem;
+}
+.user_name h1{
+    font-size: .4rem /* 18/50 */;
+}
+.img_right{
+    margin-top: 0.9rem;
+    margin-left: 0.4rem;
+}
+.user_hao{
+    color: white;
+    font-size: .28rem /* 14/50 */ ;
+}
+.user_hao h6{
+    font-weight: normal;
+    font-size: 0.28rem;
+}
+.user_detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 0.48rem .36rem /* 18/50 */;
+    font-size: .24rem /* 12/50 */;
+}
+
+.user_detail span{
+    font-size: .32rem /* 16/50 */;
+}
+
+.zhu_list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: .9rem /* 45/50 */;
+}
+.zhuye_list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 1rem /* 54/50 */;
+    margin-bottom: 2px;
+}
+.user_lists ul li{
+    background: #ffffff;
+    border-bottom:1px solid #bab8b8 ;
+}
+.mar{
+    margin-left: .6rem /* 30/50 */;
+    margin-right: .6rem /* 30/50 */;
+    font-family:MicrosoftYaHei;
+}
+.gray{
+    color: #8a8a8a;
+}
+.zhuye_list li:last-child{
+    border-bottom: none;
+}
+
+
+.bottom{
+    width: 100%;
+    height: 5rem;
+    background: #ffffff;
+    /* position: fixed; */
+    /* bottom: 0; */
+}
+
+/* 评论列表的样式 */
+.search{
+    width: 100%;
+    padding: 0.4rem 0;
+    background: #ffffff;
+    text-align: center;
+}
+.search input{
+    border: solid 1px #F18D06;
+    border-radius: .2rem /* 10/50 */;
+    outline: none;
+    text-align: center;
+    width: 85%;
+    height: .6rem /* 25/50 */;
+}
+.list ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list_content{
+    display: flex;
+    align-items: center;
+}
+.list_img img{
+    width: 1rem /* 50/50 */;
+    height: 1rem /* 50/50 */;
+    border-radius: 50%;
+    margin-right: .34rem /* 17/50 */;
+}
+.list{
+    margin-top: .16rem /* 8/50 */;
+}
+.list ul li{
+    width: 100%;
+    height: 1.6rem /* 92/50 */;
+    background: #ffffff;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #cfcece;
+}
+.lasts{
+    font-size: .26rem /* 13/50 */;
+}
+.firsts{
+    font-size: .32rem /* 16/50 */;
+    font-weight: bold;
+    font-family:MicrosoftYaHei;
+    margin-bottom: .1rem /* 5/50 */ ;
+}
+.mm{
+    margin-left: .6rem /* 30/50 */;
+}
+.rig{
+    margin-right: .6rem /* 30/50 */;
+    font-size: .3rem /* 15/50 */;
+    margin-top: -12px;
+}
+/* input::-webkit-input-placeholder{
+    background:url('../images/sousuo.png') no-repeat 45% center;
+} */
+
+/* 申请主播的样式 */
+
+.froms{
+    width: 100%;
+    background: #ffffff;
+}
+form{
+    text-align: left;
+    width: 100%;
+}
+.label ul li input{
+    border: solid 1px #bcbcbc;
+    border-radius: .4rem /* 20/50 */;
+    width: 4rem /* 200/50 */;
+    height: .52rem /* 26/50 */;
+    margin-left: .56rem /* 28/50 */;
+    padding-left: 10px;
+}
+.label ul li input:focus{
+    outline: none
+}
+.lefts{
+    margin-left: 0rem /* 30/50 */ !important;
+}
+.label ul li{
+    text-align: center;
+    display: block;
+    padding:0.3rem 0; 
+    margin-left: .4rem /* 20/50 */;
+    font-size: .28rem /* 14/50 */;
+    border-top: 1px solid #e5e5e5;
+}
+.label ul li:first-child{
+    margin-top: 0;
+}
+.label ul li:last-child{
+    border-bottom: 1px solid #e5e5e5;
+}
+.apply{
+    width: 6.32rem /* 316/50 */;
+    text-align: center;
+    background: #F18D06;
+    color: white;
+    height: .6rem /* 30/50 */;
+    border-radius: 10px;
+    border: solid 1px #F18D06;
+    margin-top: -0.4rem;
+    margin-left: 8%;
+    margin-bottom: 1rem;
+}
+.top_img{
+    padding-left: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+.top_img div img{
+    width: 1rem /* 50/50 */ ;
+    height: 1rem /* 50/50 */ ;
+    border-radius: 50%;
+    margin-right: .34rem /* 17/50 */;
+}
+.imgtop{
+    display: flex;
+    align-items: center;
+    font-size: .28rem /* 14/50 */;
+    margin-left: .4rem /* 20/50 */;
+    font-weight: bold;
+}
+.label ul li{
+    color: #8a8a8a;
+}
+
+/* 推广收益 */
+.tui_guang{
+    width: 100%;
+    height: 5.12rem /* 256/50 */;
+    background: #ffffff;
+    position: relative;
+}
+.edu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 3rem /* 150/50 */;
+    height: 3rem /* 150/50 */;
+    border: solid 5px #F18D06;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+}
+.title{
+    font-size: .4rem /* 20/50 */;
+    color: #bcbcbc;
+    margin-top: .8rem /* 40/50 */;
+    margin-bottom: 5px;
+}
+.num{
+    font-weight: bold;
+    font-size: .44rem /* 22/50 */;
+}
+
+
+.queren{
+    width: 6.32rem /* 316/50 */;
+    height: .6rem /* 30/50 */;
+    background: #F18D06;
+    border: solid 1px #F18D06;
+    font-size: .28rem /* 14/50 */;
+    border-radius: 15px;
+    line-height: .6rem /* 30/50 */;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+.tui_buttom{
+    width: 100%;
+    padding-top: 0.8rem ;
+    padding-bottom: 1.5rem ;
+    background: white;
+}
+.backEee{
+    height: 0.2rem;
+    background: #eeeeee;
+}

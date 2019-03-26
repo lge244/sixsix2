@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60950f99-3ef1-4891-952e-da9680d75a2d" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/status/images/address.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/status/images/explain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/status/images/head123.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/card_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/company_site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explain.html" beforeDir="false" afterPath="$PROJECT_DIR$/explain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/news_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranking.html" beforeDir="false" afterPath="$PROJECT_DIR$/ranking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/reg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/status/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/status/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/status/images/head123.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+            <state relative-caret-position="264">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,27 +57,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/status/images/head123.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/card_detail.html">
+        <entry file="file://$PROJECT_DIR$/personalCenter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="170" column="12" lean-forward="true" selection-start-line="170" selection-start-column="12" selection-end-line="180" selection-end-column="18" />
-              <folding>
-                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="353">
+              <caret line="78" column="30" lean-forward="true" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/join_us.html">
+        <entry file="file://$PROJECT_DIR$/noticeList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="230">
+              <caret line="132" column="49" lean-forward="true" selection-start-line="132" selection-start-column="49" selection-end-line="132" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shenqingAnchor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/status/css/all.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="193" column="29" lean-forward="true" selection-start-line="193" selection-start-column="29" selection-end-line="193" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/anchorDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tuiguang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="56" column="20" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videoList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="146" column="25" lean-forward="true" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -105,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/month_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
+            <state relative-caret-position="1430">
               <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -126,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="352">
               <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
             </state>
           </provider>
@@ -162,7 +179,14 @@
       <find>select_sty</find>
       <find>px</find>
       <find>Zb</find>
+      <find>./</find>
+      <find>.label ul li input</find>
+      <find>.list_img img</find>
     </findStrings>
+    <replaceStrings>
+      <replace>./status</replace>
+      <replace>./status/</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -199,6 +223,13 @@
         <option value="$PROJECT_DIR$/company_site.html" />
         <option value="$PROJECT_DIR$/menu.html" />
         <option value="$PROJECT_DIR$/my_info.html" />
+        <option value="$PROJECT_DIR$/noticeList.html" />
+        <option value="$PROJECT_DIR$/personalCenter.html" />
+        <option value="$PROJECT_DIR$/tuiguang.html" />
+        <option value="$PROJECT_DIR$/videoList.html" />
+        <option value="$PROJECT_DIR$/shenqingAnchor.html" />
+        <option value="$PROJECT_DIR$/status/css/all.css" />
+        <option value="$PROJECT_DIR$/anchorDetail.html" />
       </list>
     </option>
   </component>
@@ -218,6 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,13 +266,12 @@
               <item name="sixsix" type="b2602c69:ProjectViewProjectNode" />
               <item name="sixsix" type="462c0819:PsiDirectoryNode" />
               <item name="status" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,36 +309,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.card_detail.html">
-    <configuration name="123.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sixsix/123.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.anchorDetail.html">
+    <configuration name="anchorDetail.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sixsix/anchorDetail.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="card_detail.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sixsix/card_detail.html" useBuiltInWebServerPort="true">
+    <configuration name="noticeList.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sixsix/noticeList.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="company_site.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sixsix/company_site.html" useBuiltInWebServerPort="true">
+    <configuration name="personalCenter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sixsix/personalCenter.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="menu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sixsix/menu.html" useBuiltInWebServerPort="true">
+    <configuration name="shenqingAnchor.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sixsix/shenqingAnchor.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="my_info.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sixsix/my_info.html" useBuiltInWebServerPort="true">
+    <configuration name="tuiguang.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sixsix/tuiguang.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.card_detail.html" />
-      <item itemvalue="JavaScript Debug.company_site.html" />
-      <item itemvalue="JavaScript Debug.123.html" />
-      <item itemvalue="JavaScript Debug.menu.html" />
-      <item itemvalue="JavaScript Debug.my_info.html" />
+      <item itemvalue="JavaScript Debug.personalCenter.html" />
+      <item itemvalue="JavaScript Debug.tuiguang.html" />
+      <item itemvalue="JavaScript Debug.shenqingAnchor.html" />
+      <item itemvalue="JavaScript Debug.noticeList.html" />
+      <item itemvalue="JavaScript Debug.anchorDetail.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.card_detail.html" />
-        <item itemvalue="JavaScript Debug.my_info.html" />
-        <item itemvalue="JavaScript Debug.menu.html" />
-        <item itemvalue="JavaScript Debug.123.html" />
-        <item itemvalue="JavaScript Debug.company_site.html" />
+        <item itemvalue="JavaScript Debug.anchorDetail.html" />
+        <item itemvalue="JavaScript Debug.noticeList.html" />
+        <item itemvalue="JavaScript Debug.personalCenter.html" />
+        <item itemvalue="JavaScript Debug.shenqingAnchor.html" />
+        <item itemvalue="JavaScript Debug.tuiguang.html" />
       </list>
     </recent_temporary>
   </component>
@@ -340,17 +371,18 @@
       <workItem from="1553331708015" duration="4013000" />
       <workItem from="1553418112656" duration="2413000" />
       <workItem from="1553421801371" duration="6969000" />
+      <workItem from="1553559259392" duration="510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179658000" />
+    <option name="totallyTimeSpent" value="180168000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10341151" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15681234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -425,9 +457,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/status/images/banner/33.jpg" />
-    <entry file="file://$PROJECT_DIR$/1.html" />
-    <entry file="file://$PROJECT_DIR$/status/images/back.png" />
     <entry file="file://$PROJECT_DIR$/11.html" />
     <entry file="file://$PROJECT_DIR$/status/js.js" />
     <entry file="file://$PROJECT_DIR$/status/layui/css/layui.css" />
@@ -521,13 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/123.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/123.html" />
     <entry file="file://$PROJECT_DIR$/status/css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -603,39 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/join_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/month_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#8;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#8;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#9;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#9;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#10;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#10;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#11;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#11;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/explain.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -659,23 +649,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/status/images/head123.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/card_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="170" column="12" lean-forward="true" selection-start-line="170" selection-start-column="12" selection-end-line="180" selection-end-column="18" />
+        <state relative-caret-position="2706">
+          <caret line="170" column="12" selection-start-line="170" selection-start-column="12" selection-end-line="180" selection-end-column="18" />
           <folding>
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/status/images/head123.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/join_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/month_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#8;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#8;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#9;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#9;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#10;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#10;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#11;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#11;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+        <state relative-caret-position="264">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -711,6 +734,55 @@
             <element signature="n#style#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="146" column="25" lean-forward="true" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuiguang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shenqingAnchor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personalCenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="78" column="30" lean-forward="true" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noticeList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="132" column="49" lean-forward="true" selection-start-line="132" selection-start-column="49" selection-end-line="132" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/status/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="193" column="29" lean-forward="true" selection-start-line="193" selection-start-column="29" selection-end-line="193" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anchorDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
         </state>
       </provider>
     </entry>

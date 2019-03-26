@@ -1,0 +1,186 @@
+.detail{
+    width: 100%;
+    background: white;
+    margin: 1px 0;
+}
+.zhubo_img{
+    width: 2.4rem /* 120/50 */;
+    margin: 0 auto;
+}
+.zhubo_img img{
+    width: 2rem /* 120/50 */;
+    height: 2rem /* 120/50 */;
+    border-radius: 50%;
+    margin-top: .4rem /* 20/50 */;
+}
+.zhubo_name{
+    width: 2.4rem /* 120/50 */;
+    margin: .2rem /* 10/50 */ auto;
+    display: flex;
+    align-items: center;
+}
+.zhubo_name img{
+    width: 1rem /* 50/50 */ ;
+    height: .3rem /* 20/50 */;
+}
+.zhubo_p{
+    width: 4.9rem /* 245/50 */;
+    font-size: .3rem /* 15/50 */;
+    color: #808080;
+    margin: 0.32rem auto;
+    text-align: center;
+
+}
+.type{
+    width: 3rem /* 200/50 */;
+    display: flex;
+    align-items: center;
+    margin: .3rem /* 15/50 */ auto;
+}
+.zhubo_type{
+    text-align: center;
+    width: 2rem /* 50/50 */ ;
+    height: .5rem /* 20/50 */;
+    line-height: .5rem;
+    background: #F18D06;
+    border: solid 1px #aa4105;
+    color: white;
+    font-size: .24rem /* 12/50 */;
+    margin-right: .15rem /* 10/50 */; 
+    text-align: center;
+    line-height: 0.5rem;
+}
+.zhubo_name{
+    line-height: .4rem /* 20/50 */;
+    font-size: 0.32rem;
+}
+.zhubo_name h2{
+    font-size: 0.4rem;
+}
+.zhubo_name span{
+    line-height: .2rem /* 20/50 */;
+}
+.fenzhi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #808080;
+    margin-top: .4rem /* 30/50 */;
+}
+.like{
+    width: 4rem /* 200/50 */;
+    height: 1.2rem /* 60/50 */;
+    text-align: center;
+    font-size: 0.28rem;
+    padding-bottom: 0.2rem;
+}
+.title_xiang{
+    display: flex;
+    align-items: center;
+}
+.zhubo_xia{
+    margin-top: .44rem /* 22/50 */;
+}
+.ads{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lll{
+    margin-top: .5rem /* 22/50 */;
+}
+.add_more{
+    color: #808080;
+    margin-top: .44rem /* 22/50 */;
+    margin-right: .44rem /* 22/50 */;
+}
+.zhubo_xiang{
+    font-size: .4rem /* 20/50 */;
+    margin-top: 10px;
+}
+.zhubo_ximg ul li{
+    display: inline-block;
+    margin: .2rem /* 10/50 */ .2rem;
+}
+.zhubo_ximg ul{
+    display: flex;
+    justify-content: space-between;
+}
+.zhubo_ximg ul li img{
+    width: 100%;
+}
+.zhubo_ximg{
+    background: white;
+}
+.user_detailss{
+    margin-top: .4rem /* 20/50 */ ;
+    background: white;
+}
+.xinxi{
+    padding: 0rem 0.6rem /* 20/50 */;
+    margin-top: -0.4rem;
+}
+.xinxi li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: .8rem /* 40/50 */;
+    width: 100%;
+    color: #808080;
+    font-size: .28rem /* 14/50 */
+}
+.mar{
+    margin-left: -1.1rem /* 12/50 */;
+}
+.unde{
+    border-bottom:dashed 1px #808080; 
+    margin-top: .2rem /* 10/50 */;
+}
+.zhubojieshao{
+    background: white;
+    padding: 0 .8rem /* 20/50 */;
+}
+.pp{
+    font-size: .28rem /* 20/50 */;
+    margin-top: .3rem /* 25/50 */;
+}
+.pp.marginTop{
+    margin-top: 0;
+}
+.shares{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem /* 20/50 */;
+    background: white;
+}
+.nn{
+    padding-left: .4rem /* 20/50 */;
+    font-size: .24rem /* 0.28/50 */;
+}
+.shares img{
+    height: .6rem /* 40/50 */;
+}
+.sss img{
+    height: .5rem /* 30/50 */;
+    margin: 5px;
+}
+.buttoms{
+    width: 100%;
+    height: 2rem /* 100/50 */;
+    background: #313131;
+}
+.liebiao li{
+    display: inline;
+}
+.liebiao{
+    display: flex;
+    justify-content: space-between;
+    padding:0 .4rem /* 20/50 */;
+    align-items: center;
+    color: white;
+    font-size: 0.28rem;
+}
+.font{
+    font-size: .4rem /* 20/50 */;
+}
