@@ -311,7 +311,10 @@ body, footer {
     width: 20%;
     padding-left: 7px;
 }
+.public-top .login2 {
+    width: 20%;
 
+}
 .public-top .login img {
     margin-top: 14px;
     width: 23px;
@@ -485,8 +488,8 @@ body, footer {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     -moz-background-size: 100% 100%;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     height: 400px;
 }
 
@@ -510,9 +513,9 @@ body, footer {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     -moz-background-size: 100% 100%;
-    width: 80%;
+    width: 90%;
     margin-top: 30px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .data .data_map {
